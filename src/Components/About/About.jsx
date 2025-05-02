@@ -1,16 +1,9 @@
 import React from "react";
 import "./About.css";
 import { Type } from "./Type";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
-import PhoneIcon from "@mui/icons-material/Phone";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import DescriptionIcon from "@mui/icons-material/Description";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
-import Viraj_Resume from "../../assets/resume/TanyaShrivastava_resume.pdf"
 export const About = () => {
   return (
     <>

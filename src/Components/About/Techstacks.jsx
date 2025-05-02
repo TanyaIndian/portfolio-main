@@ -1,19 +1,15 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
-  SiMaterialui,
   SiExpress,
-  SiRedis,
-  SiTailwindcss,
-  SiNetlify
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku ,SiPostman} from "react-icons/si";
 import { VscGithub ,} from "react-icons/vsc";
-import { BsBootstrap, BsWordpress, } from "react-icons/bs";
+import { BsBootstrap } from "react-icons/bs";
 
 export const Techstacks = () => {
   return (
