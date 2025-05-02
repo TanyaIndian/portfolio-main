@@ -6,9 +6,9 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import WorkIcon from "@material-ui/icons/Work";
-import SchoolIcon from "@material-ui/icons/School";
-import StarRateIcon from "@material-ui/icons/StarRate";
+import WorkIcon from "@mui/icons-material/Work";
+import SchoolIcon from "@mui/icons-material/School";
+import StarRateIcon from "@mui/icons-material/StarRate";
 import { ThemeContext } from "../../Context/theme";
 
 export const Timeline = () => {
