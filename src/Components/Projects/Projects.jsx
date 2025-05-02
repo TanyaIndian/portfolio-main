@@ -1,23 +1,13 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
 import {
-  SiBlockchaindotcom,
   SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
   SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
   SiMongodb,
   SiNodedotjs,
   SiReact,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import project1 from "../../assets/project5.webp";
 import project2 from "../../assets/project6.webp";
