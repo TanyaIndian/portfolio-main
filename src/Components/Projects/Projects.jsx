@@ -19,10 +19,10 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
-import project1 from "../../assets/project5.png";
-import project2 from "../../assets/project6.png";
+import project1 from "../../assets/project5.webp";
+import project2 from "../../assets/project6.webp";
 import project3 from "../../assets/project3.jpg";
-import project4 from "../../assets/youtubeApp_screenshot.png";
+import project4 from "../../assets/youtubeApp_screenshot.webp";
 
 
 
