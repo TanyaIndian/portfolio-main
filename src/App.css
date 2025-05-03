@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 .app {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -21,8 +21,8 @@
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --shadow:
+    rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 main {
@@ -58,7 +58,7 @@ main {
 }
 
 .link::before {
-  content: "";
+  content: '';
   display: inline;
   width: 0%;
   height: 0.2em;
@@ -105,7 +105,7 @@ main {
 }
 
 .btn--outline:before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: var(--clr-primary);
   right: 100%;
