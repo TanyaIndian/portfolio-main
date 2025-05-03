@@ -1,15 +1,14 @@
-
-import React from "react";
-import { Header } from "./Components/Header/Header";
-import "./App.css";
-import { ThemeContext } from "./Context/theme";
-import { About } from "./Components/About/About";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { Github } from "./Components/About/Github";
-import { Projects } from "./Components/Projects/Projects";
-import { Contact } from "./Components/Contact/Contact";
-import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+import React from 'react';
+import { Header } from './Components/Header/Header';
+import './App.css';
+import { ThemeContext } from './Context/theme';
+import { About } from './Components/About/About';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { Github } from './Components/About/Github';
+import { Projects } from './Components/Projects/Projects';
+import { Contact } from './Components/Contact/Contact';
+import { ScrollToTop } from './Components/ScrollToTop/ScrollToTop';
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -22,7 +21,7 @@ export default function App() {
       </section>
       <main>
         <About />
-        <Github />  
+        <Github />
         {/* //don't remove it its important for onchange of theme. */}
         <section id="#projects">
           <Projects />
