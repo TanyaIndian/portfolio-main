@@ -5,7 +5,7 @@ import Brightness2Icon from '@mui/icons-material/Brightness2';
 import WbSunnyRoundedIcon from '@mui/icons-material/WbSunnyRounded';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import Tanya_resume from '../../assets/resume/TanyaShrivastava_resume.pdf';
+import Tanya_resume from '../../assets/resume/Tanya_Shrivastava_CV.pdf';
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
   const [showNavList, setShowNavList] = React.useState(false);
