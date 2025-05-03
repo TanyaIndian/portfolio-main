@@ -226,7 +226,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/TanyaIndian/applications"
+                    href="https://github.com/TanyaIndian/Youtube_Clone"
                     target="_blank"
                     rel="noreferrer"
                   >
