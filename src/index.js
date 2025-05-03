@@ -1,15 +1,16 @@
-import { StrictMode } from 'react';
-import ReactDOM from 'react-dom';
+import React, { StrictMode } from 'react';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { ThemeProvider } from './Context/theme';
 
 const rootElement = document.getElementById('root');
-ReactDOM.render(
+const root = ReactDOM.createRoot(rootElement);
+
+root.render(
   <StrictMode>
     <ThemeProvider>
       <App />
     </ThemeProvider>
-  </StrictMode>,
-  rootElement
+  </StrictMode>
 );
