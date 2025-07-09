@@ -10,8 +10,8 @@ import {
 import { DiCss3 } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';
 import project1 from '../../assets/project5.webp';
-import project2 from '../../assets/project6.webp';
-import project3 from '../../assets/project3.jpg';
+import project2 from '../../assets/ChatVere_Img.webp';
+import project3 from '../../assets/Calendar_img.webp';
 import project4 from '../../assets/youtubeApp_screenshot.webp';
 
 export const Projects = () => {
@@ -28,27 +28,24 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>Sephora clone</h2>
+                <h2>Google_Calendar clone</h2>
                 <p>
-                  Sephora is a French multinational retailer of famous beauty
-                  brand that has captured the hearts of millions of beauty
-                  shoppers worldwide.
+                  
+                  Google Calendar Clone is a modern calendar web app . A clean, responsive UI powered by Radix UI, and 
+                  Tailwind CSS. 
                   <br />
-                  <br />A collaborative project, built in 5 days by a team of 4
-                  developers.
+                  <br />Google Calender UI, built by me in 5 days.
                 </p>
                 <div>
-                  <SiHtml5 />
+                 
                   <DiCss3 />
                   <IoLogoJavascript />
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  
                   <SiReact />
                 </div>
                 <div>
                   <a
-                    href="https://shephoraindia.netlify.app/"
+                    href="https://calendar.shrivastava.de/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -57,7 +54,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/khushi89012/SephoraClone"
+                    href="https://github.com/TanyaIndian/Google_Calender_clone"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -78,13 +75,11 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>ZoomCar clone</h2>
+                <h2>ChatVerse</h2>
                 <p>
-                  Zoomcar, is an Indian self-drive car rental company,
-                  headquartered in Bangalore, India.The company was founded in
-                  2013 <br />
-                  <br />A collaborative project built by a team of 4, executed
-                  in 5 days.{' '}
+                  ChatVerse is a full-stack real-time chat web app featuring modern UI, JWT-based authentication, 
+                  and real-time communication using Socket.IO <br />
+                  <br />A Chat App project, built by me in 5 days.{' '}
                 </p>
 
                 <div>
@@ -97,7 +92,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="http://zoomcar-letsgo-boom.netlify.app/"
+                    href="https://chatverse.shrivastava.de/login"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -106,7 +101,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/TanyaIndian/zoomcar-backend"
+                    href="https://github.com/TanyaIndian/ChatVerse"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -130,7 +125,7 @@ export const Projects = () => {
                 <h2>Nordstrom clone</h2>
                 <p>
                   E-commerce website Nordstrom, Inc. is an American luxury
-                  department store chain.
+                  department store chain. Men/Women section.
                   <br />
                   <br />A collaborative project, built in 6 days by a team of 5
                   developers.
